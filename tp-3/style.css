@@ -4,7 +4,7 @@ h1 {
 p {
   font-family: serif;
 }
-.primer parrafo {
+#primer-parrafo {
     background-color: #CEE;
 }
 em {
@@ -13,7 +13,7 @@ em {
 a {
     outline: 1px solid #333;
 }
-.fuente parrafo {
+#Fuente {
   opacity: 100%;
   color: #000;
 }
