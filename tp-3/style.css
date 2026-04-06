@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+p {
+  font-family: serif;
+}
+.primer parrafo {
+    background-color: #CEE;
+}
+em {
+    color: #933;
+}
+a {
+    outline: 1px solid #333;
+}
+.fuente parrafo {
+  opacity: 100%;
+  color: #000;
+}
+p:not([id]) {
+    background-color: rgba(190, 120, 240, 0.6);
+    padding: 10px;
+    border-radius: 4px; 
+}
+.compilado {
+   color : #062;
+   font-weight: bold;
+}
+  
