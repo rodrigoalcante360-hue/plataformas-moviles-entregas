@@ -26,10 +26,9 @@ a {
   opacity: 100%;
   color: #000;
 }
-p:not([id]) {
+p {
     background-color: rgba(190, 120, 240, 0.6);
-    padding: 10px;
-    border-radius: 4px; 
+
 }
 .compilado {
    color : #062;
