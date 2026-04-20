@@ -13,11 +13,9 @@ ES {
 em {
     color: #933;
 }
-
-
-  a {
-    outline: 1px solid #333;
-    }
+a {
+  outline: 1px solid #333;
+}
 
 #Fuente {
   opacity: 100%;
