@@ -7,6 +7,10 @@ p {
 p#primer-parrafo {
     background-color: #CEE;
 }
+a#primer-parrafo {
+    border: 1px solid #333;
+}
+    
 ES { 
     color: #062;
 }
