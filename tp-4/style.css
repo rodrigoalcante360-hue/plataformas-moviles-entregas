@@ -1,1 +1,24 @@
-
+@media (min-width: 400px) {
+  body {
+    background-color: rgb(40, 60, 80);
+  }
+}
+@media (min-width: 800px) {
+  h1 {
+    text-align: center;
+  }
+}
+@media (orientation: landscape) {
+  article {
+    max-width: 50ch;
+  }
+}
+@media (min-width: 200px) {
+  h1 {
+    background-color: rgb(40, 60, 80);
+  }
+@media print {
+  p {
+    font-family: serif;
+  }
+}
