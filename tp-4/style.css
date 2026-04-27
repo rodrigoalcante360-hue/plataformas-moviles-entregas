@@ -34,17 +34,17 @@ a{
   padding: 2px 5px;
 }
 @media screen and (max-width: 800px) and  (min-width: 900px) {
-  img{
+  figure img{
     display: none;
   }
 }
 @media screen and (max-width: 400px) and (min-width: 200px){
-  img{
+  figure img{
     max-heigth: 400px;
     object-fit: cover;
   }
 }
-@media screen (min-resolution: 2dppx){
+@media screen and (min-resolution: 2dppx){
   article{
     background-color:  #667;
   }
