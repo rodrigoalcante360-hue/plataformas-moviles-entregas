@@ -23,10 +23,8 @@
   }
 }
 @media (prefers-color-scheme: light) {
-  body{ 
+  body, h1{ 
     background-color: #DDD;
-  }
-  h1{
     color: #111;
   }
 }
@@ -35,10 +33,19 @@ a{
   background-color: #212;
   padding: 2px 5px;
 }
-@media screen (max-width: 800px, min-width: 900px) {
+@media screen and (max-width: 800px) and  (min-width: 900px) {
   img{
     display: none;
   }
 }
-  
-    
+@media screen and (max-width: 400px) and (min-width: 200px){
+  img{
+    max-heigth: 400px;
+    object-fit: cover;
+  }
+}
+@media (min-resolution: 2dppx){
+  article{
+    background-color:  #667;
+  }
+}
