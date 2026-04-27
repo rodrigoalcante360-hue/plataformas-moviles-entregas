@@ -44,7 +44,7 @@ a{
     object-fit: cover;
   }
 }
-@media (min-resolution: 2dppx){
+@media screen (min-resolution: 2dppx){
   article{
     background-color:  #667;
   }
