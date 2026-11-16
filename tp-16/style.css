@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(50, 76, 124);
+    text-align: center;
+}
+
+.gatos {
+    display: flex;
+    gap: 20px;
+}
+
+.gato {
+    flex: 1;
+}
+
+.gato img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
